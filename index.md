@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Yang的博客"
+  name: "YangBlog"
   text: "A VitePress Site"
   tagline: My great project tagline
   actions:
