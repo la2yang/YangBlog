@@ -12,11 +12,8 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/docs/markdown-examples' },
       {
-        text: '测试',
-        items: [
-          { text: '测试2', link: '/text' },
-          { text: '测试3', link: '/text' },
-        ],
+        text: 'react',
+        items: [{ text: 'react学习', link: '/docs/study' }],
       },
     ],
 
@@ -27,6 +24,10 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/docs/markdown-examples' },
           { text: 'Runtime API Examples', link: '/docs/api-examples' },
         ],
+      },
+      {
+        text: 'react',
+        items: [{ text: 'react学习', link: '/docs/study' }],
       },
     ],
 
