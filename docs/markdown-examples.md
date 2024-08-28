@@ -69,7 +69,7 @@ This is a tip.
 :::
 
 ::: warning
-This is a warning.
+This is a warning.test
 :::
 
 ::: danger
