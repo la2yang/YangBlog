@@ -13,21 +13,20 @@ export default defineConfig({
       { text: 'Examples', link: '/docs/markdown-examples' },
       {
         text: 'react',
-        items: [{ text: 'react学习', link: '/docs/study' }],
+        items: [
+          { text: 'react学习', link: '/docs/study' },
+          { text: 'antd', link: '/docs/antd' },
+        ],
       },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/docs/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/docs/api-examples' },
-        ],
-      },
-      {
         text: 'react',
-        items: [{ text: 'react学习', link: '/docs/study' }],
+        items: [
+          { text: 'react学习', link: '/docs/study' },
+          { text: 'antd', link: '/docs/antd' },
+        ],
       },
     ],
 
