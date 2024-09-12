@@ -2,3 +2,4 @@
 ```javascript
 this.selectComponent('.componetName').funcionName();
 ```
+test
