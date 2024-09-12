@@ -18,6 +18,10 @@ export default defineConfig({
           { text: 'antd', link: '/docs/antd' },
         ],
       },
+      {
+        text: '小程序',
+        items: [{ text: '微信小程序', link: '/docs/mini' }],
+      },
     ],
 
     sidebar: [
@@ -27,6 +31,10 @@ export default defineConfig({
           { text: 'react学习', link: '/docs/study' },
           { text: 'antd', link: '/docs/antd' },
         ],
+      },
+      {
+        text: '小程序',
+        items: [{ text: '微信小程序', link: '/docs/mini' }],
       },
     ],
 
