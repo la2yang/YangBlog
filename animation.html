@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <style>
+    .box {
+      width: 1000px;
+      height: 200px;
+      background-color: pink;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      margin-top: 10px;
+      /* 添加这行来隐藏溢出部分 */
+    }
+
+    .box-inner {
+      width: 100px;
+      height: 100px;
+      background-color: skyblue;
+      animation: move 2s cubic-bezier(0.215, 0.610, 0.355, 1) infinite alternate;
+      /* 添加下面这行来使动画更流畅 */
+      will-change: transform;
+    }
+
+    .box-inner:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes move {
+      0% {
+        transform: translateX(-450px);
+        /* 调整起始位置 */
+      }
+
+      100% {
+        transform: translateX(450px);
+        /* 调整结束位置 */
+      }
+    }
+  </style>
+
+  <div class="box">
+    <div class="box-inner"></div>
+  </div>
+</body>
+
+</html>

@@ -36,3 +36,12 @@
   }}
 </Form.Item>
 ```
+
+### input中文输入问题
+
+```javascript
+  const handleComment = async (e?: React.KeyboardEvent) => {
+    // 中文输入未完成状态
+    if (e?.nativeEvent.isComposing) return;
+  };
+```
